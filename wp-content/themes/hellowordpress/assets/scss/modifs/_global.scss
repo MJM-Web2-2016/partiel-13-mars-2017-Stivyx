@@ -19,6 +19,15 @@ h2 {
     font-weight: 700;
     color: #ff3131;
     text-transform: uppercase;
+    margin-bottom: 30px;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #313131;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 // Composants
@@ -38,4 +47,7 @@ h2 {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+}
+.icone-h2 {
+    vertical-align: initial;
 }

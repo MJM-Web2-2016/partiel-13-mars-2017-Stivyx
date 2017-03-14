@@ -1,0 +1,21 @@
+.billet-index {
+    background: #f4f4f4;
+    padding: 40px 20px;
+
+    p {
+        font-size: 14px;
+    }
+    .tarif {
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #313131;
+        text-transform: uppercase;
+    }
+    .premier-paragraphe {
+        margin-bottom: 40px;
+    }
+    .cta-index {
+        display: inline-block;
+    }
+}
