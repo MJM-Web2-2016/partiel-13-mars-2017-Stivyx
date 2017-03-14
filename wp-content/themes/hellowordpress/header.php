@@ -38,7 +38,7 @@
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<div class="top-bar-left">
 				<ul class="menu">
-					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
+					<li class="home"><a class='lien-logo' href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="logo" src="http://localhost:8888/musiqueaction.com/wp-content/uploads/2017/03/logo-baseline-horizontale.png" alt="Logo Musique Action"></a></li>
 				</ul>
 			</div>
 			<div class="top-bar-right">

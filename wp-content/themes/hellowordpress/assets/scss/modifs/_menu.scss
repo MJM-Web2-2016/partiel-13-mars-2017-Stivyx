@@ -1,0 +1,22 @@
+#site-navigation{
+    .lien-logo {
+        padding: 15px;
+        height: 130px;
+    }
+    .logo {
+        max-height: 100%;
+        width: auto;
+    }
+    #menu-principal-1 {
+        margin-top: 20px;
+        
+        li {
+            border: none;
+
+            a {
+                text-transform: uppercase;
+                font-size: 20px;
+            }
+        }
+    }
+}
