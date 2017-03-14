@@ -1,3 +1,15 @@
+header.site-header {
+    position: fixed;
+    width: 100%;
+}
+.header-index {
+    padding-top: 170px;
+}
+@media screen and (max-width: 1024px) {
+        .header-index {
+            padding-top: 110px;
+        }
+}
 #site-navigation{
     .lien-logo {
         padding: 15px;
@@ -8,7 +20,6 @@
         width: auto;
     }
     #menu-principal-1 {
-        margin-top: 40px;
         
         li {
             border: none;
@@ -17,6 +28,31 @@
                 text-transform: uppercase;
                 font-size: 20px;
             }
+            a:hover {
+                color: #ff3131;
+                background: none;
+            }
         }
     }
+    @media screen and (max-width: 1024px) {
+        .lien-logo {
+            height: 70px;
+            padding: 10px;
+        }
+       
+        #menu-principal-1 {
+            li a {
+                font-size: 15px;
+                padding-left: 6px;
+                padding-right: 6px; 
+            }
+        }
+    }
+}
+ #masthead .lien-logo {
+            height: 70px;
+            padding: 10px;
+        }
+#masthead .lien-logo img {
+    max-height: 100%;
 }

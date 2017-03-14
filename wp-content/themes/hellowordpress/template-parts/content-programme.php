@@ -10,7 +10,7 @@
 
 ?>
 
-<section class="row programme-index text-center">
+<section id="programme" class="row programme-index text-center">
 
 	<h2 class="text-center medium-text-left" ><img class="icone-h2" src="http://localhost:8888/musiqueaction.com/wp-content/uploads/2017/03/calendar.png" alt="icone info"> Programme</h2>
 	<div class="medium-4 column">

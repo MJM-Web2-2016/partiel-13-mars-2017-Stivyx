@@ -10,7 +10,7 @@
 
 ?>
 
-<section class="row pratique-index">
+<section id="pratique" class="row pratique-index">
 
 	<h2 class="text-center medium-text-left" ><img class="icone-h2" src="http://localhost:8888/musiqueaction.com/wp-content/uploads/2017/03/poi.png" alt="icone info"> Infos pratiques</h2>
 	<div class="large-6 column">

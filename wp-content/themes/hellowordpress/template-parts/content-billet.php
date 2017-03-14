@@ -10,7 +10,7 @@
 
 ?>
 
-<section class="row billet-index">
+<section id="billetterie" class="row billet-index">
 
 	<h2 class="text-center medium-text-left" ><img class="icone-h2" src="http://localhost:8888/musiqueaction.com/wp-content/uploads/2017/03/ticket.png" alt="icone info"> Billetterie</h2>
 	<div class="medium-6 column">

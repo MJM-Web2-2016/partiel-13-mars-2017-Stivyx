@@ -29,10 +29,9 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="title-bar" data-responsive-toggle="site-navigation">
+			<a class='lien-logo' href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="logo" src="http://localhost:8888/musiqueaction.com/wp-content/uploads/2017/03/logo-baseline-horizontale.png" alt="Logo Musique Action"></a>
 			<button class="menu-icon" type="button" data-toggle="mobile-menu"></button>
-			<div class="title-bar-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			</div>
+			
 		</div>
 
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
@@ -41,7 +40,7 @@
 					<li class="home"><a class='lien-logo' href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="logo" src="http://localhost:8888/musiqueaction.com/wp-content/uploads/2017/03/logo-baseline-horizontale.png" alt="Logo Musique Action"></a></li>
 				</ul>
 			</div>
-			<div class="top-bar-right">
+			<div class="top-bar-right" data-magellan>
 				<?php foundationpress_top_bar_r(); ?>
 
 				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) === 'topbar' ) : ?>

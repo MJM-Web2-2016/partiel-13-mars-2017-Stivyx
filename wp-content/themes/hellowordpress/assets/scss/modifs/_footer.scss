@@ -1,5 +1,6 @@
 #footer-container {
     margin-top: 0;
+    background: #313131;
 }
 #footer{
     background: #313131;
@@ -14,9 +15,15 @@
         color: #ff3131;
     }
     .social a {
-        padding: 0 10px;
+        padding: 10px;
     }
     .column:not(:last-child()) {
         margin-bottom: 10px;
+    }
+    a:hover {
+        color: #ff3131;
+    }
+    .social a:hover {
+        background-color: #42525D;
     }
 }

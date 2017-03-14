@@ -10,7 +10,7 @@
 
 ?>
 
-<section class="row propos-index">
+<section id="a-propos" class="row propos-index">
 
 	<h2 class="text-center medium-text-left" ><img class="icone-h2" src="http://localhost:8888/musiqueaction.com/wp-content/uploads/2017/03/infos.png" alt="icone info"> À propos</h2>
 	<div class="medium-6 column">
