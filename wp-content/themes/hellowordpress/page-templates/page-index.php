@@ -6,6 +6,8 @@ get_header(); ?>
 
 <?php get_template_part( 'template-parts/content-header' ); ?>
 
+<?php get_template_part( 'template-parts/content-propos' ); ?>
+
 <?php do_action( 'foundationpress_before_content' ); ?>
 
 <?php do_action( 'foundationpress_after_content' ); ?>

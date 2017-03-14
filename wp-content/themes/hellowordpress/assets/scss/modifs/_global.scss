@@ -1,6 +1,11 @@
 // Typo
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald:400,700');
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    color: #313131;
+}
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 28px;
@@ -13,5 +18,24 @@ h2 {
     font-size: 30px;
     font-weight: 700;
     color: #ff3131;
+    text-transform: uppercase;
+}
+
+// Composants
+
+.cta-index {
+    width : 250px;
+    background: #ff3131;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
     text-transform: uppercase;
 }
