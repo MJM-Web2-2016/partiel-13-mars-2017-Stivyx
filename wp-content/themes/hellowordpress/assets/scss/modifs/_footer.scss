@@ -1,0 +1,22 @@
+#footer-container {
+    margin-top: 0;
+}
+#footer{
+    background: #313131;
+    a {
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    .valeur {
+        color: #ff3131;
+    }
+    .social a {
+        padding: 0 10px;
+    }
+    .column:not(:last-child()) {
+        margin-bottom: 10px;
+    }
+}

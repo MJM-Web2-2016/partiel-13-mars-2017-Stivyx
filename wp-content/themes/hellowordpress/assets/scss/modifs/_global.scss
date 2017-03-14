@@ -47,6 +47,12 @@ h3 {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    border: 1px solid #ff3131;
+}
+.cta-index:hover {
+    background: #fff;
+    color: #ff3131;
+    border: 1px solid #fff;
 }
 .icone-h2 {
     vertical-align: initial;

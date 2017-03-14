@@ -1,0 +1,28 @@
+.pratique-index {
+    background-image:  url(http://localhost:8888/musiqueaction.com/wp-content/uploads/2017/03/map-location.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 40px 20px;
+
+    p {
+        font-size: 14px;
+    }
+    p:last-child {
+        margin-bottom: 40px;
+    }
+    .important {
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #313131;
+        text-transform: uppercase;
+    }
+    .cta-index {
+        display: inline-block;
+    }
+    iframe {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+}

@@ -12,6 +12,8 @@ get_header(); ?>
 
 <?php get_template_part( 'template-parts/content-programme' ); ?>
 
+<?php get_template_part( 'template-parts/content-pratique' ); ?>
+
 
 
 <?php do_action( 'foundationpress_before_content' ); ?>
